@@ -1,0 +1,170 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /*
+
+        Spacing
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Layout */
+
+
+
+figure {
+
+    margin:0 2% 0 0;
+    float:left;
+}
+
+figure img {
+  float: left;
+    max-width:15rem;
+}
+
+header{
+  font-family:monospace;
+
+  margin-bottom: 3rem;
+  text-align: center;
+  transform: rotate(-5deg);
+  letter-spacing: -.125rem;
+  font-size: 1.5rem;
+  word-spacing: -1rem;
+
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+section{
+
+
+  min-width: 30rem;
+  max-width: 35rem;
+  width:50%;
+
+}
+
+
+aside{
+  padding-left: 1rem;
+display: flex;
+  width:80%;
+
+
+  max-width: 25rem;
+border-left: .125rem solid black;
+
+
+}
+
+
+@font-face {
+  font-family:roboto-regular, sans-serif;
+  scr: url(../fonts/roboto-regular.ttf) format('truetype');
+
+}
+
+
+}
+
+@font-face {
+  font-family:ultra-regular, serif;
+  scr: url(../fonts/ultra-regular.ttf) format('truetype');
+
+}
+
+/* header and footer */
+
+
+
+
+
+nav {
+  font-family:monospace;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-top: .125rem solid black;
+  border-bottom: .125rem solid black;
+  margin-left: -3rem;
+  margin-right: -3rem;
+  text-indent: 3rem;
+  word-spacing: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+
+}
+
+nav a {
+
+  text-decoration: none;
+  color: #33658A;
+}
+nav a1{
+  text-decoration: line-through;
+
+}
+
+
+.subsection {
+
+
+    }
